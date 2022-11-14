@@ -1,0 +1,196 @@
+* {
+    font-family: 'Yuji Syuku', serif;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+header {
+    background: rgb(50, 50, 50);
+    line-height: 65px;
+    color: whitesmoke;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    opacity: 90%;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+header h1 {
+    font-size: 30px;
+    float: right;
+}
+header img {
+    width: 45px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+header a {
+    padding: 10px;
+}
+header a:hover {
+    opacity: 0.8;
+    background: rgb(80, 80, 80);
+}
+.header_left {
+    float: left;
+}
+.header_right {
+    float: right;
+}
+header li {
+    float: left;
+    margin-left: 15px;
+    font-size: 20px;
+}
+audio {
+    border: 1px rgb(50, 50, 50) solid;
+    border-radius: 30px;
+}
+.top_wrapper {
+    background-image: url("../img/top.jpg");
+    background-size: cover;
+    width: 100%;
+    padding: 120px 0;
+}
+.top_wrapper h2 {
+    font-size: 150px;
+    font-weight: bold;
+    color: whitesmoke;
+    line-height: 200px;
+    text-shadow: 5px 5px 5px rgb(50, 50, 50);
+    font-family: 'Yuji Syuku', serif;
+    letter-spacing: -15px;
+}
+.top_wrapper span {
+    font-size: 80%;
+    font-family: 'Yuji Syuku', serif;
+}
+.feature_wrapper {
+    background: whitesmoke;
+}
+.feature_left {
+    text-align: center;
+}
+.feature_right {
+    line-height: 65px;
+    padding-bottom: 100px;
+}
+.feature_right p {
+    padding-bottom: 65px;
+    font-size: 30px;
+}
+.feature_contents {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.feature_wrapper img {
+    width: 320px;
+    box-shadow: 5px 5px 5px rgb(50, 50, 50);
+}
+.feature_left p {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 35px;
+    padding-top: 20px;
+}
+h3 {
+    text-align: center;
+    padding: 100px 0 50px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.calculator_wrapper h4 {
+    font-size: 40px;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+.calculator_wrapper a {
+    border-bottom: solid 3px rgb(50, 50, 50);
+}
+h5 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0 0 100px;
+}
+.calculator_wrapper p {
+    font-size: 30px;
+    padding-bottom: 100px;
+}
+.calculator_wrapper audio {
+    display: block;
+    margin-bottom: 50px;
+}
+.message_wrapper {
+    text-align: center;
+    background: whitesmoke;
+}
+.message_wrapper form {
+    padding: 50px 0 100px;
+}
+.message_wrapper textarea {
+    resize: none;
+    border: 1px solid rgb(50, 50, 50);
+    width: 500px;
+    height: 300px;
+    text-align: start;
+    font-size: 20px;
+    line-height: 30px;
+    border-radius: 5px;
+    background: white;
+}
+.message_wrapper input {
+
+    background: white;
+    border: 1px solid rgb(50, 50, 50); 
+    box-shadow: 3px 3px rgb(50, 50, 50);
+    font-size: 20px;
+    padding: 10px; 
+    margin: 10px;
+    border-radius: 5px;
+}
+.message_wrapper input:active {
+    position: relative;
+    top: 3px;
+    left: 3px;
+    box-shadow: none;
+    background: whitesmoke;
+}
+footer {
+    width: 100%;
+    background-color: rgb(50, 50, 50);
+}
+footer img {
+    width: 45px;
+    margin-bottom: 10px;
+    margin: 10px 10px 10px 0;
+    float: left;
+}
+footer h1 {
+    font-size: 30px;
+    color: whitesmoke;
+    border-bottom: rgb(80, 80, 80) 3px solid;
+    line-height: 65px;
+}
+footer h6 {
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding: 50px 0;
+    letter-spacing: 5px;
+}
+.toTop {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 65px;
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px rgb(50, 50, 50);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 0 10px;
+}
